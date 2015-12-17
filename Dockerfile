@@ -12,4 +12,4 @@ RUN echo "deb http://sdkrepo.atlassian.com/debian/ stable contrib" >>/etc/apt/so
 
 # Copy Maven preference files to predefine the command line question about
 # subscribing to the mailing list to `NO`.
-COPY .java /root/.java
+COPY onbuild/.java /root/.java
