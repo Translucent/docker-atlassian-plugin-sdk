@@ -1,2 +1,3 @@
-# docker-atlassian-plugin-sdk
-Atlassian Plugin SDK wrapped in a Docker container.
+# Atlassian Plugin SDK wrapped in a Docker container
+
+Behold all the enjoyment of AMPS and Docker.
