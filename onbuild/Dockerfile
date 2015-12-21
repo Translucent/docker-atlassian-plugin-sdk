@@ -18,11 +18,11 @@ RUN echo "deb http://sdkrepo.atlassian.com/debian/ stable contrib" >>/etc/apt/so
 # subscribing to the mailing list to `NO`.
 COPY .java /root/.java
 
-# = The actual onbuild image instructions
-
 # Create directory for sources using the same practice as the ruby images
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
+
+# = The actual onbuild image instructions
 
 # Once upon a time in the west this was thought to be a good idea, however in
 # the dawn of the new ages it was discovered to be better to possible have
