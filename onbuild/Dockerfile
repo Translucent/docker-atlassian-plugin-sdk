@@ -40,4 +40,4 @@ ONBUILD COPY . /usr/src/app
 
 # Set the default running command of the AMPS image to be running the
 # application in debug mode.
-CMD atlas-debug
+CMD ["atlas-debug"]
