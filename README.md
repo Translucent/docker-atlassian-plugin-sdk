@@ -24,3 +24,5 @@ To see examples of the development workflow using this Docker image with both th
 [examples repository](https://github.com/maj-translucent/docker-atlassian-plugin-templates) where we supply various workflow examples and experiments on how to utilize Docker to improve the development speed and workflow.
 
 More information will be provided when the appropiate knowledge has been obtained.
+
+[forced update]
