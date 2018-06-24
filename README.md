@@ -7,7 +7,7 @@ This is an Docker image that has the Atlassian Plugin SDK, AMPS, installed and i
 If you want to get up and running fast you can run the following which will start an Atlassian JIRA instance using the `atlas-run-standalone` command. After a short while the instance should be available at [http://docker-host:2990](http://docker-host:2990).
 
 ```
-docker run -d -p 2990:2990 translucent/atlassian-plugin-sdk:latest atlas-run-standalone --product jira
+docker run -d -p 2990:2990 translucent/atlassian-plugin-sdk:latest atlas-run-standalone --product jira --jvmargs "-Xms512m -Xmx768m"
 ```
 
 Afterwards you could do your development using an externally hosted JIRA development instance and install new builds of your add-on by executing the following command provided that you also have AMPS installed on your local environment.
